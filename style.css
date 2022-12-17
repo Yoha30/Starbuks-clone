@@ -47,6 +47,11 @@ main {
     padding-bottom: 2.15rem;
 }
 
+[role="tablist"] button:first-child {
+    color: #00754a;
+    border-bottom: 4px solid #00754a;
+}
+
 .active {
     border-bottom: 4px solid #00754a;
     padding-bottom: 2.15rem;
@@ -243,7 +248,6 @@ section {
     display: flex;
     place-items: center;
     flex-direction: column;
-    margin: 150px 8.75rem !important;
 }
 
 .c span, .d span p {
@@ -267,10 +271,12 @@ section {
     display: flex;
     justify-content: space-between;
 }
-.mySlides{
+
+.mySlides {
     transition-duration: 500ms;
     cursor: pointer;
 }
+
 .mySlides:hover {
     transform: translateY(-10px);
     transition-duration: 500ms;
@@ -419,4 +425,160 @@ main h1 {
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.contentColumn {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.f-heading {
+    text-align: center;
+}
+
+.sb-heading1 {
+    margin-bottom: 1rem;
+}
+
+.Rows, .multiThumbnailsRow_3 {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.Rows-1, .Rows-2, .Rows-3, .freebies, .order-2, .free-faster {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sb-heading_acc, .sb-heading-order, .sb-heading-eran, .sb-heading-1, .sb-heading-2, .sb-heading_3, .sb-textLink-1, .sb-textLink-2, .sb-textLink_3s {
+    margin: 1rem 0;
+}
+
+.link_1, .link_2, .link-1 {
+    color: #00a862 !important;
+}
+
+.pt3 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.sectionMargins_2, .Margin-3-heading, .pay-ways {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.tabs {
+    box-shadow: inset 0 7px 9px -7px rgb(0 0 0 / 14%);
+}
+
+.tabs > div {
+    width: 33.33%;
+    margin: 0 auto;
+    height: 300px;
+    text-align: left;
+}
+.tabs > div h2{
+    margin-bottom: 1rem ;
+}
+
+.Margin-3-heading p, .pay-ways p {
+    width: 45%;
+    margin: 1rem 0;
+}
+
+[role="tab"] {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.sb-textLink-1, .sb-textLink-2, .sb-textLink_3s {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #006241 !important;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.tag0-text-xs, .tag1-text-xs, .tag2-text-xs, .tab3-text-xs, .tab4-text-xs {
+    color: #cba258 !important;
+}
+
+.tabs {
+    width: 100%;
+    background: #d4e9e2 !important;
+}
+
+.tabs > div {
+    place-items: center;
+}
+
+.sectionMargins_4 {
+    background-color: #f2f0eb !important;
+    padding: 1rem;
+}
+
+.flex-item-1A {
+    display: flex;
+    margin: 150px 8.75rem;
+}
+
+.gridItem-1 {
+    width: 25%;
+}
+
+.cardContent___1B > p {
+    width: 75%;
+    margin: 0;
+}
+
+.cardContent___1B {
+    margin: 0 2rem;
+}
+
+.sb-heading-1A {
+    margin-bottom: 1rem;
+}
+
+.flex-item-1B {
+    display: flex;
+    width: 50%;
+}
+
+.sb-heading-1B {
+    margin-bottom: 1rem;
+}
+
+.text-item-1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sb-global {
+    width: 100%;
+}
+
+.tab-img {
+    width: 50%;
 }
