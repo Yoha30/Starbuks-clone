@@ -267,6 +267,14 @@ section {
     display: flex;
     justify-content: space-between;
 }
+.mySlides{
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.mySlides:hover {
+    transform: translateY(-10px);
+    transition-duration: 500ms;
+}
 
 .slideshow-container img {
     border-radius: 8px;
