@@ -1,6 +1,7 @@
 # Our Project Front-end Architecture
 https://alexmis4iti78.me https://www.alexmis4iti78.me
 
+__Currently hosted on Github pages__
 
 
 # Our Project Back-end Architecture
