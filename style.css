@@ -275,6 +275,7 @@ section {
 .mySlides {
     transition-duration: 500ms;
     cursor: pointer;
+    z-index: -1;
 }
 
 .mySlides:hover {
