@@ -311,6 +311,7 @@ section {
     justify-content: center;
     transition: 0.6s ease;
     user-select: none;
+    z-index: -1;
 }
 
 /* Position the "next button" to the right */
