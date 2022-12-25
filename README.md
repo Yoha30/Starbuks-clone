@@ -256,7 +256,6 @@ all the metrics in a visualized way
 <img src="https://user-images.githubusercontent.com/73319030/207846732-69b196cd-4bd3-4266-9382-bfa34d17f1fc.png" width="1550" height="580">
 
 
-# Pentest Demo On Our Back-end Architecture
 
 
 
